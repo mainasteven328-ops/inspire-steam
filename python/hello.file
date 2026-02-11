@@ -1,0 +1,8 @@
+print('hello from steve')
+print('i am from kiambu')
+# this is a comment
+age=18
+weight=70
+height=170
+print ('i am age years old')
+print(f'i am {age} years old,i am also {weight}kgs and i am {height}cm tall')
