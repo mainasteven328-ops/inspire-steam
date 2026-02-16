@@ -1,10 +1,10 @@
-# name : steve lawrence
-# date : 12/02/2026
-#programme: programme to calculate arithmetic progression
+#name: steve lawrence
+#date:13/2/2026
+#programme: to calculate arithmetic progression
 
 #calculating the nth term
 
-a = int(input("enter the first term :"))
+a = int(input("enter the number of terms :"))
 n = int(input ("enter the number of terms:"))
 d = int(input("enter the common difference :"))
 nth_term= a+(n-1)*d

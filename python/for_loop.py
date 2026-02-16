@@ -3,10 +3,16 @@
 #programme: programme to use for loops in physics
 
 import math 
-for x in range (0,360,30):
+for x in range (-180,180,30):
+    print("_ _ _ _ _")
+    print("| angle {x} |")
+    print("|sine{x}    |")
+    print("| tangent{x}|")
 
-    print(math.sin(x))
+    print(f"sine of {x}")
 
-for x in range (10,0,-1):
+    print(f"tangent of {x}")
 
-    print(1)
+    print(f"cosine of {x}")
+
+ 
