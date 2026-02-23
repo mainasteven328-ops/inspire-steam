@@ -1,5 +1,5 @@
 #name : steve lawrence
-#date : 19.02.2026
+#date : 16.02.2026
 # program : to show lists in python
 
 friends = ["rachel", "phoebe", "ross","chandler","monica","joey"]

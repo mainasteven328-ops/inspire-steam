@@ -1,6 +1,6 @@
-# name : steve lawrence
-# date : 12/02/2026
-#programme: programme to show loops in python
+#ame: steve lawrence
+# date:13/02/2026
+# programme: programme to do loops
 
 sum = 0
 for x in range (1,11):
