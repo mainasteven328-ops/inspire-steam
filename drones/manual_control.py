@@ -6,7 +6,8 @@ drone = Drone()
 drone.connect()
 
 time.sleep(1)
-drone.take_off(5)
+drone.take_off(5
+)
 rc_speed = 300
 
 while True:
@@ -26,7 +27,7 @@ while True:
         left_right = -rc_speed
     elif key ==ord("d"):
         left_right = rc_speed
-    elif key_up_down == ord("f"):
+    elif key == ord("f"):
         up_down = rc_speed
     elif key==ord("c"):
         up_down = -rc_speed
@@ -34,7 +35,7 @@ while True:
         yaw = -1
     elif key==ord("e"):
         yaw = 1
-    elif key == ord("1") or key == 27:
+    elif key == ord("1") or key == 27: 
 
         drone.land()
         time.sleep(2)

@@ -1,4 +1,4 @@
-from pysimverse 
+from pysimverse import Drone
 import time
 
 drone = Drone()
