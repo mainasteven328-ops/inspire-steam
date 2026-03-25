@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music Page</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 700px;
+        }
+
+        img {
+            width: 100%;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+        }
+
+        video, audio {
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        .lyrics {
+            margin-top: 20px;
+            background: #222;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 14px;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            border: none;
+            background: #ff4757;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #ff6b81;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>My Music Page</h1>
+    <p>
+        The main theme of "Reflections" by The Neighbourhood is longing, emotional connection, and the pain of separation, capturing the complexity of a relationship that feels both transformative and unsustainable. 
+         Released in 2021 on the album Hard to Imagine the Neighbourhood Ever Changing, the song explores the narrator's struggle with absence, admitting that while they have "got along," they have been "sad" since their partner left. 
+
+Key lyrical interpretations include:
+
+"I see my reflection in your eyes" signifies a deep, intertwined bond where the narrator sees their own identity mirrored in the other person, highlighting the relationship's transformative impact. 
+"We were too close to the stars" suggests a connection that was extraordinary and otherworldly, yet perhaps too intense to last without causing harm. 
+"I'd rather lose somebody than use somebody" reflects a moral stance on authenticity, indicating the narrator prefers the pain of loss over the guilt of exploiting a partner for their own emotional needs. 
+The phrase "Maybe it's a blessing in disguise" hints at the possibility of personal growth and self-discovery emerging from the heartbreak of the breakup. 
+The song resonates with themes of isolation and the desire for connection, particularly relevant during the global pandemic when physical distance often translated to emotional distance. 
+ While the tone is melancholic, the lyrics convey a sense of hope and healing, suggesting that vulnerability and the desire for understanding can lead to reconnection or at least acceptance.  
+ Some interpretations also suggest the song touches on one-sided love or the fear of intimacy stemming from past trauma, where the narrator sees their own flaws and weaknesses reflected in their partner's eyes. 
+    </p>
+
+    <!-- 🔥 IMAGE -->
+    <img src="./image2.jpg" alt="Music Image">
+    <!-- 👉 PUT YOUR IMAGE FILE NAME HERE (e.g. cover.jpg) -->
+
+    <!-- 🎬 VIDEO (MP4) -->
+    <video controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support video.
+    </video>
+
+    <!-- 👉 PLACE YOUR MP4 FILE HERE (e.g. reflections.mp4) -->
+
+    <!-- 🎧 AUDIO OPTION (for low data users) -->
+    <button onclick="document.getElementById('audio').style.display='block'">
+        Use Audio Instead (Save Data)
+    </button>
+
+    <audio id="audio" controls style="display:none;">
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support audio.
+    </audio>
+    <!-- 👉 PLACE YOUR MP3 FILE HERE (e.g. reflections.mp3) -->
+    <img src="./image3.jpg" alt="Music Image">
+    <!-- 🎤 LYRICS -->
+    <div class="lyrics">
+        <p>
+            [Verse 1]
+Where have you been? <br>
+Do you know when you're coming back?<br>
+'Cause since you've been gone<br>
+I've got along but I've been sad<br>
+
+[Pre-Chorus]<br>
+I tried to put it out for you to get<br>
+Could've, should've but you never did<br>
+Wish you wanted it a little bit<br>
+More but it's a chore for you to give<br>
+
+[Refrain]<br>
+Where have you been?<br>
+Do you know if you're coming back?<br>
+
+[Chorus]<br>
+I never knew somebody like you, somebody<br>
+Falling just as hard<br>
+I'd rather lose somebody than use somebody<br>
+Maybe it's a blessing in disguise (I see myself in you)<br>
+I see my reflection in your eyes<br>
+
+[Verse 2]<br>
+I know you're sick<br>
+Hoping you fix whatever's broken<br>
+Ignorant bliss<br>
+And a few sips might be the potion<br>
+[Pre-Chorus]<br>
+I tried to put it out for you to get<br>
+Could've, should've but you never did<br>
+Wish you wanted in a little bit<br>
+More but it's a chore for you to give<br>
+
+[Refrain]<br>
+Where have you been?<br>
+Do you know if you're coming back?<br>
+
+[Chorus]<br>
+We were too close to the stars<br>
+I never knew somebody like you, somebody<br>
+Falling just as hard<br>
+I'd rather lose somebody than use somebody<br>
+Maybe it's a blessing in disguise (I see myself in you)<br>
+I see my reflection in your eyes (Tell me you see it too)<br>
+
+[Bridge]<br>
+So close, so close<br>
+Yet so far away (So far)<br>
+I don't know (I don't)<br>
+How to be solo (No)<br>
+So don't go, oh, no, just stay<br>
+You and I were bright, shooting through the sky daily (Yeah)<br>
+Lighting up the night, wasn't always right, baby (Mhm)<br>
+        </p>
+ <img src="./image4.jpg" alt="Music Image">
+    </div>
+
+</div>
+
+</body>
+</html>
